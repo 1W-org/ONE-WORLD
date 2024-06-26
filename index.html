@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One World Community</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="Logo.png" alt="One World Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" id="members-btn">✅ 𝗠𝗲𝗺𝗯𝗲𝗿𝘀</a></li>
+                    <ul id="members-list" style="display: none;">
+                        <li><a href="rashik.html">Md Redwanul Islam Rashik</a></li>
+                        <li><a href="nafiz.html">Tauhid Alam Nafiz</a></li>
+                        <li><a href="zarif.html">Zarif Yeamin</a></li>
+                        <li><a href="fahim.html">Fahim Ahmmed Joy</a></li>
+                        <li><a href="mehedi.html">Mehedi Ibne Sharif</a></li>
+                        <li><a href="rupom.html">Md. Nahid Hossain Rupom</a></li>
+                        <li><a href="moshi.html">A S M Moshiur Rahman</a></li>
+                        <li><a href="naim.html">MD RADOWAN KOBIR</a></li>
+                        <li><a href="rasik.html">Asif Iqbal Rasik</a></li>
+                        <li><a href="istiak.html">Istiak Ahmad</a></li>
+                    </ul>
+                    <li><a href="#" id="roles-btn">👉 𝗥𝗼𝗹𝗲𝘀</a></li>
+                    <ul id="roles-list" style="display: none;">
+                        <li>𝗔𝗱𝗺𝗶𝗻</li>
+                        <li>𝗠𝗼𝗱𝗲𝗿𝗮𝘁𝗼𝗿</li>
+                        <li>𝗥𝗼𝘆𝗮𝗹</li>
+                    </ul>
+                    <li><a href="#" id="one-world-btn">🌍𝐧𝐞 𝐖𝐨𝐫𝐥𝐝</a></li>
+                    <ul id="one-world-list" style="display: none;">
+                        <li><a href="https://discord.gg/MNAyHP2N" target="_blank">Discord</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100063492251405" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCSZX2qqWsnf89p2_oODXMBQ" target="_blank">YouTube</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <h1>One World Members</h1>
+            <div class="profile-grid">
+                <!-- Profile Cards -->
+                <div class="profile-card">
+                    <a href="rashik.html">
+                        <img src="Rashik.jpg" alt="Md Redwanul Islam Rashik">
+                        <h2>Md Redwanul Islam Rashik</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="nafiz.html">
+                        <img src="Nafiz.jpeg" alt="Tauhid Alam Nafiz">
+                        <h2>Tauhid Alam Nafiz</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="zarif.html">
+                        <img src="Zarif.jpg" alt="Zarif Yeamin">
+                        <h2>Zarif Yeamin</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="fahim.html">
+                        <img src="Fahim.jpg" alt="Fahim Ahmmed Joy">
+                        <h2>Fahim Ahmmed Joy</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="mehedi.html">
+                        <img src="Mehedi.jpg" alt="Mehedi Ibne Sharif">
+                        <h2>Mehedi Ibne Sharif</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="rupom.html">
+                        <img src="Rupom.jpg" alt="Md. Nahid Hossain Rupom">
+                        <h2>Md. Nahid Hossain Rupom</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="moshi.html">
+                        <img src="Moshiur.jpg" alt="A S M Moshiur Rahman">
+                        <h2>A S M Moshiur Rahman</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="naim.html">
+                        <img src="Naim.jpg" alt="MD RADOWAN KOBIR">
+                        <h2>MD RADOWAN KOBIR</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="rasik.html">
+                        <img src="Rasik.jpg" alt="Asif Iqbal Rasik">
+                        <h2>Asif Iqbal Rasik</h2>
+                    </a>
+                </div>
+                <div class="profile-card">
+                    <a href="istiak.html">
+                        <img src="Istiak.jpg" alt="Istiak Ahmad">
+                        <h2>Istiak Ahmad</h2>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        document.getElementById('members-btn').addEventListener('click', function() {
+            var membersList = document.getElementById('members-list');
+            membersList.style.display = membersList.style.display === 'none' ? 'block' : 'none';
+        });
+
+        document.getElementById('roles-btn').addEventListener('click', function() {
+            var rolesList = document.getElementById('roles-list');
+            rolesList.style.display = rolesList.style.display === 'none' ? 'block' : 'none';
+        });
+
+        document.getElementById('one-world-btn').addEventListener('click', function() {
+            var oneWorldList = document.getElementById('one-world-list');
+            oneWorldList.style.display = oneWorldList.style.display === 'none' ? 'block' : 'none';
+        });
+    </script>
+</body>
+</html>
