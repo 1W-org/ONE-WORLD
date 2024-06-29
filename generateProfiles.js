@@ -104,15 +104,44 @@ const members = [
         nickname: "Naim",
         username: "RAD",
         dob: "3/8/2005",
-        phone: "+880164043183",
+        phone: "880164043183",
         email: "Radowankobir@gmail.com",
-        address: "Soyadhangora (Uttor Para), Sirajgonj Sadar, Sirajgonj, Bangladesh",
+        address: "Soyadhangora (uttor para),Sirajgonj Sadar, Sirajgonj, Bangladesh",
         discord: "rad_kor",
-        facebook: "https://www.facebook.com/rad.kobir.73",
-        streaming: "https://www.youtube.com/@radowankobir5279",
-        image: "Radowan.jpg",
-        profilePage: "rad.html"
+        facebook: "https://www.facebook.com/radkor69?mibextid=JRoKGi",
+        streaming: "https://www.facebook.com/radkor949?mibextid=ZbWKwL",
+        image: "Naim.jpg",
+        profilePage: "naim.html"
+    },
+    {
+        fullName: "Asif Iqbal Rasik",
+        nickname: "Rasik",
+        username: "DOOM",
+        dob: "7/10/2000",
+        phone: "+8801747444268",
+        email: "asifrasik@gmail.com",
+        address: "Rani Nagar, Bolia, Rajshahi",
+        discord: "asifiqbaltg",
+        facebook: "facebook.com/n3rdasif",
+        streaming: "N/A",
+        image: "Rasik.jpg",
+        profilePage: "rasik.html"
+    },
+    {
+        fullName: "Istiak Ahmad",
+        nickname: "Istiak",
+        username: "N8raZi9",
+        dob: "12/3/2000",
+        phone: "+8801736474744",
+        email: "istiakahmad47@gmail.com",
+        address: "kuratoli,kuril,Dhaka",
+        discord: "istiak8278",
+        facebook: "https://www.facebook.com/istiak.ahamad/",
+        streaming: "N/A",
+        image: "Istiak.jpg",
+        profilePage: "istiak.html"
     }
+
 ];
 
 members.forEach(member => {
